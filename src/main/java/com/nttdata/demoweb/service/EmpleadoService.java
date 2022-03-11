@@ -4,9 +4,10 @@ import com.nttdata.demoweb.repository.entity.Empleado;
 
 
 public interface EmpleadoService {
-	public void registrar(String name);
-	public List<Empleado> listar();
-	public List<Empleado> listarFiltroNombre(String cad);
-	public List<Empleado> listarFiltroNombreEs(String cad);
-	public List<Empleado> listarConJPA(Integer pId, String contiene);
+	void registrar(String name);
+	List<Empleado> listar();
+	List<Empleado> listarFiltroNombre(String cad);
+	List<Empleado> listarFiltroNombreEs(String cad);
+	List<Empleado> listarConJPA(Integer pId, String contiene);
+	Empleado inserta(Empleado emp);
 }
