@@ -1,0 +1,6 @@
+#FileLock
+#Fri Mar 11 10:42:10 CET 2022
+server=127.0.1.1\:35479
+hostName=kde-neon
+method=file
+id=17f785b66afd47fe6e9b5be2e28d56665547bf56640
