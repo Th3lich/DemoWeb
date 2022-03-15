@@ -10,4 +10,7 @@ public interface EmpleadoService {
 	List<Empleado> listarFiltroNombreEs(String cad);
 	List<Empleado> listarConJPA(Integer pId, String contiene);
 	Empleado inserta(Empleado emp);
+	Empleado modificar(Empleado emp);
+	void eliminar(Integer id);
+	Empleado getById(Integer id);
 }
